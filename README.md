@@ -83,3 +83,127 @@ YOLOv8 achieved the best balance between detection accuracy and inference speed,
 ---
 
 # 📂 Repository Structure
+
+```
+Drone-Object-Detection
+│
+├── Faster-RCNN/        # Faster RCNN implementation
+├── MaskRCNN/           # Mask RCNN implementation
+├── rcnn/               # RCNN implementation
+├── SSD/                # SSD detector implementation
+│
+├── Yolo-v3/            # YOLOv3 training notebooks
+├── yolov5/             # YOLOv5 implementation
+├── Yolo-V8/            # YOLOv8 implementation
+│
+├── Yolo-V3-Demo/       # YOLOv3 demo inference
+├── Yolo-V5-Demo/       # YOLOv5 demo inference
+│
+├── images/             # Example detection outputs
+│
+├── RCNN.ipynb          # Notebook implementation
+├── content.zip         # Dataset / assets
+└── README.md
+```
+
+---
+
+# ⚙️ Installation
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/Srinivas-jatothu/Drone-Object-Detection.git
+cd Drone-Object-Detection
+```
+
+### 2️⃣ Create a virtual environment (recommended)
+
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+### 3️⃣ Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+
+---
+# ▶️ Running the Models
+
+Most implementations are provided as **Jupyter notebooks**.
+
+You can run them using:
+
+- **Google Colab**
+- **Kaggle**
+- **Local GPU machine**
+
+Typical workflow:
+
+1. Download VisDrone dataset
+2. Configure dataset paths
+3. Run training notebook
+4. Evaluate detection performance
+5. Visualize predictions
+---
+# 📊 Evaluation Metrics
+
+The models are evaluated using standard object detection metrics:
+
+- **mAP (Mean Average Precision)**
+- **Precision**
+- **Recall**
+- **PR Curve**
+- **Inference Time**
+
+These metrics help analyze both **accuracy** and **real-time performance**.
+
+---
+
+# 🚀 Applications
+
+Potential real-world applications of aerial object detection include:
+
+- Autonomous drone monitoring
+- Smart traffic management
+- Disaster assessment
+- Border surveillance
+- Wildlife monitoring
+
+---
+
+# 🔮 Future Improvements
+
+Possible extensions for this project include:
+
+- Training on **larger UAV datasets**
+- Using **Vision Transformers for detection**
+- Deploying models on **edge devices**
+- Integrating **multi-object tracking**
+- Improving small-object detection
+
+---
+
+# 📚 References
+
+- YOLOv5 — Ultralytics
+- YOLOv8 — Ultralytics
+- Faster RCNN — Ren et al.
+- Mask RCNN — He et al.
+- VisDrone Dataset
+
+Dataset Source:
+https://paperswithcode.com/dataset/visdrone
+
+---
+
+# 👨‍💻 Author
+
+**Srinivas Jatothu**
+
+GitHub:
+https://github.com/Srinivas-jatothu
